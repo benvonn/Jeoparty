@@ -1,0 +1,57 @@
+html {
+    background-color: paleturquoise;
+
+}
+th {
+    text-transform: capitalize;
+}
+
+table, td, th{
+    border: 5px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+    
+}
+#jeopardyBoard{
+    background-color: palevioletred;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    border: 5px solid black;
+    font-family: 'Franklin Gothic Medium';
+    table-layout: fixed;
+    height: 550px;
+
+}
+
+thead{
+    background-color: palevioletred;
+    border: 5px solid rgb(24, 22, 22);
+}
+
+
+
+#jeopardyBoard td.disabled {
+    background-color: greenyellow;
+}
+
+#pressPlay{
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 8%;
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+header > h1{
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
